@@ -76,7 +76,7 @@ function Navbar() {
         <button
           type="button"
           onClick={() => setMenuOpen((open) => !open)}
-          className="flex h-11 w-11 items-center justify-center rounded-lg border border-[var(--color-border)] text-[var(--color-heading)] hover:bg-[var(--color-surface)] lg:hidden"
+          className="flex h-11 w-8 items-center justify-center text-xs rounded-lg border border-[var(--color-border)] text-[var(--color-heading)] hover:bg-[var(--color-surface)] lg:hidden"
           aria-label={menuOpen ? "Close menu" : "Open menu"}
           aria-expanded={menuOpen}
           aria-controls="mobile-navigation"
