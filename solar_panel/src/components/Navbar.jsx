@@ -63,14 +63,14 @@ function Navbar() {
         </div>
 
         {/* Desktop CTA */}
-        <a
+        {/* <a
           href="#solar-calculator"
-          className="btn btn-primary hidden shrink-0 items-center gap-2 lg:inline-flex"
+          className="btn btn-primary hidden shrink-0 items-center  gap-2 lg:inline-flex"
         >
           <Calculator size={17} />
           Calculate Solar Needs
           <ArrowUpRight size={17} />
-        </a>
+        </a> */}
 
         {/* Mobile menu button */}
         <button
